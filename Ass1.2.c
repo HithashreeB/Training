@@ -1,5 +1,6 @@
-#include <stdio.h>
+//Find the Second Minimum in array size of 10 without sorting
 
+#include <stdio.h>
 float findSecondMin(float arr[], int size) {
     float min = arr[0], secondMin = arr[1];
     if (secondMin < min) {
@@ -30,5 +31,3 @@ int main() {
     return 0;
 }
 
-OUTPUT:
-Second minimum: 3.5
