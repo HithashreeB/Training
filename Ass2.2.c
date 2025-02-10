@@ -1,6 +1,7 @@
+//Implement a function that replaces all occurrences of "hte" with "the" and "recieve" with "receive" in a given text.
+
 #include <stdio.h>
 #include <string.h>
-
 void replaceWords(char *text) {
     char buffer[1000]; 
     int i = 0, j = 0;  
